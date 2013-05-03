@@ -137,6 +137,7 @@ public class DataUtil {
 					specialSize[0]++;
 					//System.out.println("name:"+special.get("name")+"good:"+special.get("type"));
 				}else {
+					specialSize[1]++;
 					//System.out.println("name:"+special.get("name")+"bad:"+special.get("type"));
 				}
 			}
