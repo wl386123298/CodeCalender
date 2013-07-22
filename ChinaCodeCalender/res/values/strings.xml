@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">程序员老黄历</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">程序员老黄历</string>
+    <string name="good">宜</string>
+    <string name="bad">不宜</string>
+    <string name="orientation">座位方向: </string>
+    <string name="drink">今日宜饮: </string>
+    <string name="peachindex">女神亲近指数: </string>
+    <string name="about">
+        	本老黄历尚处于beta阶段，作者随时会修改，所以如果上午看到的内容跟下午不同，请勿惊慌；
+			 本老黄历仅面向程序员；
+			 本老黄历内容是程序生成的，因为只有这样程序员才会信。 
+	</string>
+</resources>

@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    
+    <TextView
+        android:id="@+id/calendar_date"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"        
+        android:background="#66CDAA"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/calendar_good"
+        android:layout_width="90dp"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/calendar_date"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:background="#A52A2A"
+        android:gravity="center"
+        android:text="@string/good"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/calendar_good_content"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_below="@+id/calendar_date"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/calendar_good"
+        
+        android:background="#A52A2A"
+        android:divider="#A52A2A"
+       	android:listSelector="#A52A2A"/>
+
+    <TextView
+        android:id="@+id/calendar_bad"
+        android:layout_width="90dp"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/calendar_good"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:background="#008B45"
+        android:gravity="center"
+        android:text="@string/bad"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/calendar_bad_content"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_below="@id/calendar_good"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@+id/calendar_bad"
+        
+        android:background="#008B45"
+        android:divider="#008B45"
+        android:listSelector="#008B45"/>
+    
+    <TextView
+        android:id="@+id/calendar_orientation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/calendar_bad"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/orientation"
+        android:textSize="16sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/calendar_orientation_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendar_bad"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/calendar_orientation"
+        android:text="@string/drink" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/calendar_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/calendar_orientation"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/drink"
+        android:textSize="16sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/calendar_drink_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendar_orientation"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/calendar_drink"
+        android:text="@string/drink" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/calendar_peach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/calendar_drink"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/peachindex"
+        android:textSize="16sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/calendar_peach_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendar_drink"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/calendar_peach"
+        android:text="@string/drink" >
+    </TextView>
+
+</RelativeLayout>
